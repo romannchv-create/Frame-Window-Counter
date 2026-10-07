@@ -1,0 +1,137 @@
+{
+    "geode": "5.7.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "crimeshappy.frame-window-counter",
+    "name": "Frame Window Counter",
+    "version": "v1.0.0",
+    "developer": "Crimeshappy",
+    "description": "Displays a visual indicator when the player hits a frame-perfect input.",
+    "settings": {
+        "simulation-fps": {
+            "name": "Simulation FPS",
+            "description": "Physics simulation rate used for trajectory prediction.",
+            "type": "int",
+            "default": 60
+        },
+
+        "trajectory-red": {
+            "name": "Trajectory Red",
+            "description": "Red channel of the trajectory color.",
+            "type": "int",
+            "default": 255
+        },
+
+        "trajectory-green": {
+            "name": "Trajectory Green",
+            "description": "Green channel of the trajectory color.",
+            "type": "int",
+            "default": 255
+        },
+
+        "trajectory-blue": {
+            "name": "Trajectory Blue",
+            "description": "Blue channel of the trajectory color.",
+            "type": "int",
+            "default": 255
+        },
+
+        "count-cube-jump": {
+            "name": "Cube Jump",
+            "description": "Count frame-perfect cube jumps.",
+            "type": "bool",
+            "default": true
+        },
+
+        "count-ship": {
+            "name": "Ship",
+            "description": "Count frame-perfect ship inputs.",
+            "type": "bool",
+            "default": true
+        },
+
+        "count-wave": {
+            "name": "Wave",
+            "description": "Count frame-perfect wave inputs.",
+            "type": "bool",
+            "default": true
+        },
+
+        "count-yellow-orb": {
+            "name": "Yellow Orb",
+            "description": "Count frame-perfect yellow orb inputs.",
+            "type": "bool",
+            "default": true
+        },
+
+        "count-pink-orb": {
+            "name": "Pink Orb",
+            "description": "Count frame-perfect pink orb inputs.",
+            "type": "bool",
+            "default": false
+        },
+
+        "count-blue-orb": {
+            "name": "Blue Orb",
+            "description": "Count frame-perfect blue orb inputs.",
+            "type": "bool",
+            "default": false
+        },
+
+        "count-red-orb": {
+            "name": "Red Orb",
+            "description": "Count frame-perfect red orb inputs.",
+            "type": "bool",
+            "default": false
+        },
+
+        "count-black-orb": {
+            "name": "Black Orb",
+            "description": "Count frame-perfect black orb inputs.",
+            "type": "bool",
+            "default": false
+        },
+
+        "count-green-orb": {
+            "name": "Green Orb",
+            "description": "Count frame-perfect green orb inputs.",
+            "type": "bool",
+            "default": false
+        },
+
+        "count-dash-orb": {
+            "name": "Dash Orb",
+            "description": "Count frame-perfect dash orb inputs.",
+            "type": "bool",
+            "default": false
+        },
+
+        "count-jump-pad": {
+            "name": "Jump Pad",
+            "description": "Count frame-perfect jump pad interactions.",
+            "type": "bool",
+            "default": false
+        },
+
+        "count-robot": {
+            "name": "Robot",
+            "description": "Count frame-perfect robot inputs.",
+            "type": "bool",
+            "default": false
+        },
+
+        "count-spider": {
+            "name": "Spider",
+            "description": "Count frame-perfect spider inputs.",
+            "type": "bool",
+            "default": false
+        }
+    },
+    "dependencies": {
+        "geode.node-ids": ">=v1.23.3"
+    }
+}
